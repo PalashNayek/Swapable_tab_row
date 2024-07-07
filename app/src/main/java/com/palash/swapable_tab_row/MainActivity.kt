@@ -1,7 +1,6 @@
 package com.palash.swapable_tab_row
 
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -31,9 +30,9 @@ import com.palash.swapable_tab_row.ui.theme.Swapable_tab_rowTheme
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
-import com.palash.swapable_tab_row.Screens.AccountScreen
-import com.palash.swapable_tab_row.Screens.BrowseScreen
-import com.palash.swapable_tab_row.Screens.HomeScreen
+import com.palash.swapable_tab_row.screens.AccountScreen
+import com.palash.swapable_tab_row.screens.BrowseScreen
+import com.palash.swapable_tab_row.screens.HomeScreen
 
 @OptIn(ExperimentalFoundationApi::class)
 class MainActivity : ComponentActivity() {

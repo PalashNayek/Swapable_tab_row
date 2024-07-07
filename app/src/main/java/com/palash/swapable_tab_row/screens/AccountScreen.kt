@@ -1,4 +1,4 @@
-package com.palash.swapable_tab_row.Screens
+package com.palash.swapable_tab_row.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
